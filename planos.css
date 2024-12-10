@@ -1,0 +1,153 @@
+/* Reset e Estilos Básicos */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Cores customizadas */
+.bg-custom-blue {
+    background-color: #000000;
+}
+.text-custom-blue {
+    color: #000000;
+}
+
+/* Cabeçalho e Navegação */
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
+}
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Planos - Cards */
+.card {
+    border-radius: 10px;
+    border: 2px solid white;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito de salto ao passar o mouse */
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Cabeçalho dos Cards (Quantidade de Mb's) */
+.plano-header {
+    background-color: #ffcc00;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-family: 'Netrito', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+/* Corpo dos Cards (Informações) */
+.plano-body {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Lista de características */
+.plano-body ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.plano-body li {
+    margin-bottom: 10px;
+}
+
+/* Botão Contratar */
+.btn-contratar {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.btn-contratar:hover {
+    background-color: #000000;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Vídeo de Fundo */
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+}
+
+/* Formulário de Pré-Cadastro */
+.form-container {
+    background-color: #000000;
+    border: 2px solid #ffcc00;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+
+.form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: white;
+}
+
+.form-control {
+    background-color: #000000;
+    color: white;
+    border: 1px solid #ffcc00;
+    margin-bottom: 15px;
+}
+
+.btn-finalizar {
+    display: block;
+    width: 100%;
+    background-color: #ffcc00;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
